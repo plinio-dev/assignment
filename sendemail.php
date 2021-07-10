@@ -18,12 +18,12 @@ if(isset($_POST['submit'])){
     $mail->isSMTP();
        $mail->Host = 'smtp.gmail.com';
        $mail->SMTPAuth = true;
-       $mail->Username = 'x.dvotion.x@gmail.com'; // Gmail address which you want to use as SMTP server
+       $mail->Username = 'x.-----.x@gmail.com'; // Gmail address which you want to use as SMTP server
        $mail->Password = '---------'; // Gmail address Password
        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
        $mail->Port = '587';
 
-       $mail->setFrom('x.dvotion.x@gmail.com'); // Gmail address which you used as SMTP server
+       $mail->setFrom('x.-----.x@gmail.com'); // Gmail address which you used as SMTP server
        $mail->addAddress('v.motta@makemark.it'); // Email address where you want to receive emails (you can use any of your gmail address including the gmail address which you used as SMTP server)
 
     $mail->isHTML(true);
